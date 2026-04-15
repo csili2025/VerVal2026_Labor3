@@ -7,13 +7,13 @@ namespace DatesAndStuff.Models;
 public class Employer
 {
 
-    string _taxId;
+    private string _taxId;
 
-    string _address;
+    private string _address;
 
-    string _ownerName;
+    private string _ownerName;
 
-    List<int> _activityDomains;
+    private List<int> _activityDomains;
 
     public Employer(
         string taxId,
