@@ -40,6 +40,10 @@ A következő feladathoz fog kelleni egy JS/TS projekt. Lehet használni más ta
 
 ![alt text](<Screenshot 2026-04-15 123400.png>)
 
+Hibarol a kep:
+![alt text](<Screenshot 2026-04-11 161217.png>)
+![alt text](6dd50881-287c-4c27-861a-7077caea25c2.jpeg)
+
 9. (3 pont) Elemezze a Sonar által talált hibákat. Válassza ki a legfontosabbnak ítélt problémát, javítsa ki, majd az újabb analízissel igazolja a javulást a dokumentációban. Egy screenshot-t ide a readme-be a hibáról a Sonar oldalán.
 
 ![alt text](image-6.png)
