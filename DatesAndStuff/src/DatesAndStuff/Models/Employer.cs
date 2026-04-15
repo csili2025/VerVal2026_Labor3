@@ -4,15 +4,16 @@ using System.Linq;
 
 namespace DatesAndStuff.Models;
 
-public class Employer {
+public class Employer
+{
 
-    string taxId;
+    string _taxId;
 
-    string address;
+    string _address;
 
-    string ownerName;
+    string _ownerName;
 
-    List<int> activityDomains;
+    List<int> _activityDomains;
 
     public Employer(
         string taxId,
@@ -20,14 +21,14 @@ public class Employer {
         string ownerName,
         List<int> activityDomains)
     {
-        this.taxId = taxId;
-        this.address = address;
-        this.ownerName = ownerName;
-        this.activityDomains = activityDomains;
+        this._taxId = taxId;
+        this._address = address;
+        this._ownerName = ownerName;
+        this._activityDomains = activityDomains;
     }
 
     internal Employer Clone()
     {
-        return new Employer(taxId, address, ownerName, new List<int>(activityDomains));
+        return new Employer(_taxId, _address, _ownerName, new List<int>(_activityDomains));
     }
 }
